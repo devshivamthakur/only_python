@@ -1,5 +1,6 @@
 import random as ran
 def fun(length):
+    print(type(length))
     calpha="ABCDEFGHIJKLMNOPQRSTUVWXYZ"  # capital alphabet
     salpha="abcdefghijklmnopqrstuvwxyz"  # small alphabet
     num="0123456789"
@@ -11,4 +12,3 @@ def fun(length):
     return st1
 leg=input("enter length of password") 
 print(fun(int(leg)))
-
