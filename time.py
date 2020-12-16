@@ -17,4 +17,4 @@ time_now=datetime.datetime.now()
 print(time_now)
 
 hours_delta=datetime.timedelta(hours=10)
-print(time_now+hours_delta)  // it add 10 hours to current days
+print(time_now+hours_delta)  #it add 10 hours to current days
